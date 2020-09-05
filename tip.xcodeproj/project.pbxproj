@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC4859F2502F71B00CED98E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4859E2502F71B00CED98E /* SettingsViewController.swift */; };
 		3FD9C81B2501834F0037A9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9C81A2501834F0037A9B8 /* AppDelegate.swift */; };
 		3FD9C81D2501834F0037A9B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD9C81C2501834F0037A9B8 /* ViewController.swift */; };
 		3FD9C8202501834F0037A9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD9C81E2501834F0037A9B8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC4859E2502F71B00CED98E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3FD9C8172501834F0037A9B8 /* tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD9C81A2501834F0037A9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD9C81C2501834F0037A9B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				3FD9C81A2501834F0037A9B8 /* AppDelegate.swift */,
 				3FD9C81C2501834F0037A9B8 /* ViewController.swift */,
 				3FD9C81E2501834F0037A9B8 /* Main.storyboard */,
+				3FC4859E2502F71B00CED98E /* SettingsViewController.swift */,
 				3FD9C821250183500037A9B8 /* Assets.xcassets */,
 				3FD9C823250183500037A9B8 /* LaunchScreen.storyboard */,
 				3FD9C826250183500037A9B8 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				3FD9C81D2501834F0037A9B8 /* ViewController.swift in Sources */,
 				3FD9C81B2501834F0037A9B8 /* AppDelegate.swift in Sources */,
+				3FC4859F2502F71B00CED98E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
