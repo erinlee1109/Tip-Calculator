@@ -55,7 +55,7 @@ Excited to learn more functionalities on Swift in the iOS development course nex
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [YUJEONG LEE]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
