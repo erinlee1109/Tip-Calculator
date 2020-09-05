@@ -51,7 +51,7 @@ GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
-Excited to learn more functionalities on Swift in the iOS development course next Spring- endless possibilities! 
+I am hoping this app can especially be helpful for those who is unfamiliar with the tipping culture or the tipping amount. I implemented the basic idea for the 'Tip Help' section, and I look forward to fully implementing it when I learn more features of Swift/Xcode in the Spring. I also based my app's color code on CodePaths's signature green:). Thank you for the opportunity to apply for Tech Fellows and to learn the basics of Swift, and thank you for your consideration. My co-tech fellow applicant Eliza and I are already excited about diving deeper into the iSO development after creating just this simple app. 
 
 ## License
 
