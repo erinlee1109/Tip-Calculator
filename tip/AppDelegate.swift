@@ -17,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        
+        // Below code from (https://stackoverflow.com/questions/26008536/navigationbar-bar-tint-and-title-text-color-in-ios-8)
+        
         UINavigationBar.appearance().barTintColor = UIColor(red: 90.0/255.0, green: 197.0/255.0, blue: 147.0/255.0, alpha: 1.0)
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]

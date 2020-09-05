@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!-- Tip Calculator-->
+        <!--Simply Tip-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tip" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,7 +108,7 @@
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="textColor" red="0.1647072434425354" green="0.16470333933830261" blue="0.16470599174499512" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="alert"/>
                                 <connections>
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="3zN-K5-SqZ"/>
                                 </connections>
@@ -122,7 +122,7 @@
                         </connections>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title=" Tip Calculator" id="DS4-39-tkD">
+                    <navigationItem key="navigationItem" title="Simply Tip" id="DS4-39-tkD">
                         <barButtonItem key="rightBarButtonItem" title="Tip Help" id="bWJ-gC-p8a">
                             <connections>
                                 <segue destination="Ybj-BN-Whm" kind="push" id="av0-be-yZD"/>
@@ -245,11 +245,16 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.25882554054260254" green="0.25881996750831604" blue="0.25882375240325928" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="46V-2i-WoV"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="PON-Fg-lMS" appends="YES" id="ttQ-0v-XzO"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Help" id="R6Q-vW-aFG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sz0-oR-noZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="PON-Fg-lMS"/>
             </objects>
             <point key="canvasLocation" x="1611.5942028985507" y="91.741071428571431"/>
         </scene>
