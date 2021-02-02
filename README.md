@@ -1,5 +1,13 @@
 # Tip Calculator
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented tip calculator:
+
+<img src='http://g.recordit.co/wr0kmbVgBl.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [Recordit](https://recordit.co/).
+
 ## App Description
 
 Having trouble calculating the tip amount? At a new state unaware of the tipping norm? This tip calculator is perfect for you- 
@@ -40,14 +48,6 @@ The following **additional** features are implemented:
 - [x] Improved UI with modern, aesthetic design, using CodePath's signature green rgb(90,197,147). 
 - [x] Enabled navigating between screens. 
 - [x] Added 'Tip Help' screen, which provides users simple context about the selected state.  
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented tip calculator:
-
-<img src='http://g.recordit.co/wr0kmbVgBl.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [Recordit](https://recordit.co/).
 
 ## Notes
 
